@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:2371/",
+  "server": {
+    "port": 2371,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/Users/shivansh/Desktop/ghost/content/data/ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/Users/shivansh/Desktop/ghost/content"
+  }
+}
